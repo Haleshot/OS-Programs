@@ -1,4 +1,3 @@
-# Srihari Thyagarajan, I066, Batch - B3
 # SJF Algorithm with and without Arrival Time (Non Preemptive)
 
 # To Find - Turn Around Time and Wait Time and their respective average times
