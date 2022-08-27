@@ -38,3 +38,9 @@ In the following example, there are five jobs named as P1, P2, P3, P4 and P5. Th
 Average Waiting time = 10.8 
 
 Turnaround time = 8.2 
+
+Output of the .py File - 
+![image](https://user-images.githubusercontent.com/57552973/187023558-7bf20e79-c3c1-42dc-a522-071ce95356ff.png)
+![image](https://user-images.githubusercontent.com/57552973/187023575-e68fa250-580f-45d1-82fa-78b84c887ade.png)
+
+
