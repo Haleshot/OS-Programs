@@ -23,9 +23,9 @@ Disadvantages –
 The processes with higher priority are executed first followed by the processes with lower priority. 
 Consider the set of 5 processes whose arrival time and burst time are given below- 
 
-https://media.geeksforgeeks.org/wp-content/uploads/opSystemScheduling.png
+![image](https://user-images.githubusercontent.com/57552973/187022770-db1b78b4-8e11-4dd5-95ea-5fd8bb50da34.png)
 
-https://media.geeksforgeeks.org/wp-content/uploads/20210420124146/priorityscheduling.jpg
+![image](https://user-images.githubusercontent.com/57552973/187022777-05cf9d3c-99be-4293-9d87-ab3b385b88d2.png)
 
 Calculating Average Waiting Time 
 
