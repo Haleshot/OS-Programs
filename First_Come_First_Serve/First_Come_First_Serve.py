@@ -2,51 +2,44 @@
 
 # To Find - Turn Around Time and Wait Time and their respective average times
 
-
-def Logic(at, bt, n):
-
-    # Array for Turn Around Time
-    turn_at = [0] * n
-
-    # Array for Waiting Time
-    wait_t = [0] * n
-    wait_t[0] = 0 # Initializing first value of CPU start as zero.
-
-    # Array for Exit/ Completion Time
-    exit_t = [0] * n
-    exit_t[0] = 0 # Initializing first value of completion Time start as zero.
-    
-
-    print("\nProcess Number\t\tArrival Time\t\tBurst Time\t\tWaiting Time\t\tTurn Around Time\t\tCompletion Time\n")
+from tabulate import tabulate # For printing the result in a Tabular Format
 
 
+def sorting_arrival(l):
+    return l[1] # Returns the Second element of the list which is Arrival Time
 
-    for i in range(1, n):
-        exit_t[i] = exit_t[i - 1] + bt[i - 1]
-        wait_t[i] = exit_t[i] - at[i] # Formula for Waiting Time
 
-        if(wait_t[i] < 0):
-            wait_t = 0
-
-    total_wt = 0
+def Turn_Around_Time(P, limit):
+    # Declaring Variables for Calculating Total Turn Around Time
     total_tat = 0
+    for i in range(limit):
+        tat = P[i][3] - P[i][1]
+        total_tat += tat # Formula For Turn Around Time -> Completion Time - Arrrival TIme
+        P[i].append(tat) # Appending the Turn Around Time to the List
 
-    for i in range(n):
-        turn_at[i] = wait_t[i] + bt[i] # Formula for Turn Around Time
-
-    for i in range(n):
-        total_wt += wait_t[i]
-        total_tat += turn_at[i]
-        compl_time = turn_at[i] + at[i]
-        p = "P" + str(i + 1)
-        print(p, "\t\t\t\t", at[i], "\t\t", bt[i], "\t\t\t", wait_t[i], "\t\t\t", turn_at[i], "\t\t\t\t" , compl_time)
+    avg_tat = total_tat/limit
+    return avg_tat
 
 
-    avg_wait_t = total_wt/n 
-    avg_turn_at = total_tat/n
+
+def Waiting_Time(P, limit):
+    # Declaring Variables for Calculating Total Waiting Time
+    total_wt = 0
+
+    for i in range(limit):
+        wt = P[i][4] - P[i][2]
+        total_wt += wt # Formula For Waiting Time -> Turn Around Time - Burst TIme
+        P[i].append(wt) # Appending the Waiting Time to the List
+
+    avg_wt = total_wt/limit
+    return avg_wt
+        
+
+def Logic(P, limit):
+    completion_time = 0
+    exit_time = []
+
     
-    print("Average Waiting Time is = ", round(avg_wait_t, 2))
-    print("Average Turn Around Time is = ", round(avg_turn_at, 2))
 
     
     
