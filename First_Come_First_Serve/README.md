@@ -22,6 +22,6 @@ FCFS scheduling algorithm
 ![image](https://user-images.githubusercontent.com/57552973/184399363-d5f003ce-8698-4e7e-bc81-c6eeb1d2abad.png)
 
 
-Output:
+Output of the .py file - 
+![image](https://user-images.githubusercontent.com/57552973/187034211-f5e90a8a-ff3c-4ea4-8f5d-eb01219821f7.png)
 
-![image](https://user-images.githubusercontent.com/57552973/184398756-8a51ae50-ece1-4b17-81a6-261cea6d6a44.png)
