@@ -40,4 +40,5 @@ Average Waiting time = 10.8
 Turnaround time = 8.2 
 
 Output of the .py File - 
+![image](https://user-images.githubusercontent.com/57552973/187022914-4c8cc301-075a-4069-b2a6-a7a744bade03.png)
 
