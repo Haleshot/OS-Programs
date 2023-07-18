@@ -36,6 +36,8 @@ Average Waiting Time = (0 + 24 + 27 + 30) / 4 = 20.25
 ```
 
 Pictorial representation is:
+
+
 ![Pictorial Representation](https://user-images.githubusercontent.com/57552973/184399363-d5f003ce-8698-4e7e-bc81-c6eeb1d2abad.png)
 
 ## Output
