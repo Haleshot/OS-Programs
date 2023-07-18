@@ -1,5 +1,3 @@
-Apologies for missing out on including the images. Here's the updated README file with the three images included before the output section:
-
 # Round Robin Scheduling Algorithm
 
 The Round Robin (RR) scheduling algorithm is one of the oldest, simplest, fairest, and most widely used algorithms in operating systems. It dispatches processes in a First-In-First-Out (FIFO) manner but assigns them a limited amount of CPU time known as a time-slice or a quantum. If a process does not complete within its time-slice, the CPU is preempted and given to the next process waiting in the queue. The preempted process is then placed at the back of the ready list. Round Robin Scheduling is preemptive, making it effective in time-sharing environments where the system needs to guarantee reasonable response times for interactive users.
