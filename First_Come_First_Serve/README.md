@@ -1,29 +1,46 @@
-First-Come-First-Serve algorithm is the simplest scheduling algorithm. Processes are dispatched 
-according to their arrival time on the ready queue. Being a non-pre-emptive discipline, once a 
-process has a CPU, it runs to completion. The FCFS scheduling is fair in the formal sense or human 
-sense of fairness but it is unfair in the sense that long jobs make short jobs wait and unimportant 
-jobs make important jobs wait.
- 
-FCFS is more predictable than most of other schemes since it offers time. FCFS scheme is not 
-useful in scheduling interactive users because it cannot guarantee good response time. The code 
-for FCFS scheduling is simple to write and understand. One of the major drawback of this scheme 
-is that the average time is often quite long. The First-Come-First-Served algorithm is rarely used 
-as a master scheme in modern operating systems but it is often embedded within other schemes.
+# First-Come-First-Serve (FCFS) Algorithm
 
-Calculating Average Waiting Time
-For every scheduling algorithm, Average waiting time is a crucial parameter to judge it's 
-performance. AWT or Average waiting time is the average of the waiting times of the processes 
-in the queue, waiting for the scheduler to pick them for execution.
-Lower the Average Waiting Time, better the scheduling algorithm.
-Consider the processes P1, P2, P3, P4 given in the below table, arrives for execution in the same 
-order, with Arrival Time 0, and given Burst Time, let's find the average waiting time using the 
-FCFS scheduling algorithm
+The First-Come-First-Serve (FCFS) algorithm is the simplest scheduling algorithm in operating systems. It dispatches processes based on their arrival time, placing them on the ready queue. FCFS is a non-preemptive scheduling discipline, which means that once a process has the CPU, it will run to completion.
 
-![image](https://user-images.githubusercontent.com/57552973/184399363-d5f003ce-8698-4e7e-bc81-c6eeb1d2abad.png)
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Calculating Average Waiting Time](#calculating-average-waiting-time)
+- [Output](#output)
 
+## Introduction
+The FCFS scheduling algorithm is fair in terms of both formal and human sense of fairness. However, it has a drawback in that long jobs make short jobs wait, and unimportant jobs make important jobs wait. This algorithm is more predictable compared to most other schemes as it offers time.
 
-Output of the .py file - 
-![image](https://user-images.githubusercontent.com/57552973/187034305-6e0b4810-3da7-4f65-8fa4-a5be5488e97a.png)
-![image](https://user-images.githubusercontent.com/57552973/187034211-f5e90a8a-ff3c-4ea4-8f5d-eb01219821f7.png)
+## Features
+- Simple and easy to understand code.
+- Predictable behavior.
+- Not suitable for scheduling interactive users as it cannot guarantee good response time.
+- Often embedded within other scheduling schemes rather than used as a standalone master scheme in modern operating systems.
 
+## Calculating Average Waiting Time
+Average waiting time (AWT) is an important parameter to evaluate the performance of any scheduling algorithm. AWT represents the average waiting time of processes in the queue, waiting for the scheduler to select them for execution. The lower the average waiting time, the better the scheduling algorithm.
 
+Consider the following processes with their respective burst times:
+
+| Process | Burst Time |
+|---------|------------|
+| P1      | 24         |
+| P2      | 3          |
+| P3      | 3          |
+| P4      | 6          |
+
+Using the FCFS scheduling algorithm, we can calculate the average waiting time as follows:
+
+```
+Average Waiting Time = (0 + 24 + 27 + 30) / 4 = 20.25
+```
+
+## Output
+The output of the `.py` file implementing the FCFS algorithm is shown below:
+
+![FCFS Output](https://user-images.githubusercontent.com/57552973/187034305-6e0b4810-3da7-4f65-8fa4-a5be5488e97a.png)
+![FCFS Output 2](https://user-images.githubusercontent.com/57552973/187034211-f5e90a8a-ff3c-4ea4-8f5d-eb01219821f7.png)
+
+Please refer to the [FCFS Repository](https://github.com/Haleshot/OS-Programs/blob/master/First_Come_First_Serve/First_Come_First_Serve.py) for the complete code implementation.
+
+For more information on scheduling algorithms and their analysis, please check the related files and code in this repository.
