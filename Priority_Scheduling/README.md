@@ -54,6 +54,6 @@ The output of the `.py` file implementing the Priority Scheduling algorithm is s
 
 ![Priority Scheduling Output 2](https://user-images.githubusercontent.com/57552973/187023575-e68fa250-580f-45d1-82fa-78b84c887ade.png)
 
-Please refer to the [Priority Scheduling Repository](https://github.com/your-repo-link) for the complete code implementation.
+Please refer to the [Priority Scheduling Repository](https://github.com/Haleshot/OS-Programs/blob/master/Priority_Scheduling/Priority_Scheduling.py) for the complete code implementation.
 
 For more information on scheduling algorithms and their analysis, please check the related files and code in this repository.
