@@ -52,6 +52,6 @@ The output of the `.py` file implementing the SJF scheduling algorithm is shown 
 
 ![SJF Output 2](https://user-images.githubusercontent.com/57552973/184400117-82cfa672-932a-42f2-b524-fd9121506d84.png)
 
-Please refer to the [SJF Repository](https://github.com/your-repo-link) for the complete code implementation.
+Please refer to the [SJF Repository](https://github.com/Haleshot/OS-Programs/blob/master/Shortest_Job_First/Shortest_Job_First.py) for the complete code implementation.
 
 For more information on scheduling algorithms and their analysis, please check the related files and code in this repository.
