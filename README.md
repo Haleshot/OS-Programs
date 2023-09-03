@@ -8,7 +8,7 @@ Here is a list of the programs included in this repository:
 
 | Serial Number | Program Title               | Description                          | Tools/Languages Used | Repository Link                                      |
 | ------------- | --------------------------- | ------------------------------------ | -------------------- | ---------------------------------------------------- |
-| 1             | First Come First Serve (FCFS)| Simulates the FCFS scheduling algorithm | Python               | [FCFS Repository](https://github.com/your-repo-link) |
+| 1             | First Come First Serve (FCFS)| Simulates the FCFS scheduling algorithm | Python               | [FCFS Repository](https://github.com/Haleshot/OS-Programs/tree/master/First_Come_First_Serve) |
 | 2             | Priority Scheduling         | Implements the priority scheduling algorithm | Python               | [Priority Scheduling Repository](https://github.com/your-repo-link) |
 | 3             | Round Robin                 | Demonstrates the Round Robin scheduling algorithm | Python               | [Round Robin Repository](https://github.com/your-repo-link) |
 | 4             | Shortest Job First (SJF)    | Implements the SJF scheduling algorithm | Python               | [SJF Repository](https://github.com/your-repo-link) |
